@@ -9,9 +9,9 @@ mymv.cpp - Moves and renames files.
 <br />    2. ./mymv oldname newname OR ./mymv pathname1/oldname pathname2/newname
 
 myrm.cpp - Mimics "rm" Linux command. Deletes files.
-To build and execute this, type: 
-              1. g++ FileManager.cpp myrm.cpp -o myrm
-					    2. ./myrm filename1 filename2 ....etc.				
+To build and execute this, type:
+<br />    1. g++ FileManager.cpp myrm.cpp -o myrm
+<br />    2. ./myrm filename1 filename2 ....etc.				
 
 mydiff.cpp - Mimics "diff" Linux command. Reports if they are same or different.
 To build and execute this, type: 
