@@ -4,9 +4,10 @@ File management utility that mimics all the basic file management functions of a
 **The g++ compiler must be installed in order to build and execute these files.
 
 mymv.cpp - Moves and renames files. 
-To build and execute this, type: 
-              1. g++ FileManager.cpp mymv.cpp -o mymv
-					    2. ./mymv oldname newname OR ./mymv pathname1/oldname pathname2/newname
+<br />To build and execute this, type: 
+
+<br />    1. g++ FileManager.cpp mymv.cpp -o mymv
+<br />    2. ./mymv oldname newname OR ./mymv pathname1/oldname pathname2/newname
 
 myrm.cpp - Mimics "rm" Linux command. Deletes files.
 To build and execute this, type: 
