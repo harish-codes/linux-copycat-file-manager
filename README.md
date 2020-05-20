@@ -28,7 +28,8 @@ mycat.cpp - Mimics "cat" Linux command. Displays contents of files.
        <br />       1. g++ FileManager.cpp mycat.cpp -o mycat
 	<br />				    2. ./mycat filename1 filename2 .....etc.				
 
-myls.cpp - Mimics "ls" Linux command. For directory, lists all contents of directory. For all other file types, displays file's name. If "-l" option used, a long-form listing will be used.
+myls.cpp - Mimics "ls" Linux command. For directory, lists all contents of directory. For all other file types, displays file's name. 
+<br />If "-l" option used, a long-form listing will be used.
 <br />To build and execute this, type: 
      <br />         1. g++ FileManager.cpp myls.cpp -o myls
 <br />	    2. ./myls OR ./myls -l OR ./myls filename OR ./myls dirname OR ./myls filename -l OR ./myls dirname -l
