@@ -5,7 +5,6 @@ File management utility that mimics all the basic file management functions of a
 
 mymv.cpp - Moves and renames files. 
 <br />To build and execute this, type: 
-
 <br />    1. g++ FileManager.cpp mymv.cpp -o mymv
 <br />    2. ./mymv oldname newname OR ./mymv pathname1/oldname pathname2/newname
 
