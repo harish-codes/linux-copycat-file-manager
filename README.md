@@ -1,7 +1,8 @@
 # linux-copycat-file-manager
 File management utility that mimics all the basic file management functions of a Linux OS.
 
-**The g++ compiler must be installed in order to build and execute these files.
+**Must be run on a Linux OS due to some header files being exclusive to Linux.**
+**The g++ compiler must be installed in order to build and execute these files.**
 
 mymv.cpp - Moves and renames files. 
 <br />To build and execute this, type: 
