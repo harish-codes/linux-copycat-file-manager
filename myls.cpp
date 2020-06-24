@@ -16,6 +16,7 @@ int main(int argc, char** argv) {
 			for (int i = 0; i < fileManage_1->getChildren().size(); i++) {	//Print contents of current directory.
 				cout << fileManage_1->getChildren().at(i) << " ";
 			}
+			cout << "\n";
 			delete fileManage_1;
 		}
 		else {
