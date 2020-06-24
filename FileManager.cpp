@@ -430,10 +430,11 @@ bool FileManager::compare(string fileName) {
 					return false;
 				}
 		}
-		if (in1.eof() && in2.eof()) {	//IDENTICAL CONTENTS
+		/*if (in1.eof() && in2.eof()) {	//IDENTICAL CONTENTS
 			return true;
-		}
+		}*/
 		in1.close();
 		in2.close();   //close file streams
 		end.close();
+		return true;
 }
